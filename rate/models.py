@@ -71,6 +71,8 @@ class Course(models.Model):
 class Student(models.Model):
     user = models.OneToOneField(User, verbose_name='utilisateur', on_delete=models.CASCADE)
     name = models.CharField('nom', max_length=254)
+    first_name = models.CharField('prénom', max_length=254)
+    last_name = models.CharField('nom de famille', max_length=254)
     promotion = models.CharField('promotion', max_length=12)
 
     def __str__(self):
