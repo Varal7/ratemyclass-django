@@ -48,7 +48,7 @@ class Type(models.Model):
 
 
 class Course(models.Model):
-    code = models.CharField('code', max_length=6)
+    code = models.CharField('code', max_length=32)
     title = models.CharField('titre', max_length=254)
     professor = models.CharField('professeur', max_length=254)
     description = models.TextField('description')
