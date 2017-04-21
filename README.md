@@ -19,6 +19,12 @@ pip install -r requirements.txt
 ./manage.py createsuperuser
 ```
 
+### Load fixtures
+
+```
+python manage.py loaddata fixtures.json
+```
+
 ## Usage
 
 ```
