@@ -1,0 +1,442 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$30000$I7cdHpsjx26Q$juFPRG1JXfVMJocO4PxeLn43ilz+npi/7Ae5QtNKlIo=",
+            "last_login": "2017-04-21T01:14:52.281Z",
+            "is_superuser": true,
+            "username": "denis",
+            "first_name": "",
+            "last_name": "",
+            "email": "denis.merigoux@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2017-04-13T02:29:12.209Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "",
+            "last_login": "2017-04-21T01:14:36Z",
+            "is_superuser": true,
+            "username": "pierre.nicolas",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2017-04-13T02:30:53Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$30000$VxRDCtUFMHQ3$rlrdhbRwAHeqLLbktzBhDEvNM7s9eVdHDrBd1SUOJSI=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "marie.sylvie",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2017-04-21T01:24:45Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$30000$03HTXmjsyIHw$yKRv4qghOuCeOL6gneB+axV8tCf0TU5KTg7lPfLikz0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "kevin.garanger",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2017-04-21T01:30:41.741Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "django_cas_ng.sessionticket",
+        "pk": 1,
+        "fields": {
+            "session_key": "oyxbems2hv2eanitpj2pjuq0adgx92zc",
+            "ticket": "ST-8mcv0CtkoCDDEFSrewcr1oc1UwnKwc5GDQjBbGxcxStnGk3dOxb28ABsJHrIu"
+        }
+    },
+    {
+        "model": "django_cas_ng.sessionticket",
+        "pk": 2,
+        "fields": {
+            "session_key": "a8u1a22sfcl1xjuyo8qu9taiva5moxfq",
+            "ticket": "ST-5hxaakUwIuK6VQ0VI8VT2yz33HRrw6WkTSkZgO9VxY4HtOVO5qYvrE8dVkNQE"
+        }
+    },
+    {
+        "model": "django_cas_ng.sessionticket",
+        "pk": 3,
+        "fields": {
+            "session_key": "6aqyzluhe76vxbgjykbycv9kuafr9kag",
+            "ticket": "ST-Ov4mhvAT7HfoQNhbtIvhsMoudMqLru2YBH2f7WWkHLxKMWfOOzxMJTJPFsg0g"
+        }
+    },
+    {
+        "model": "django_cas_ng.sessionticket",
+        "pk": 4,
+        "fields": {
+            "session_key": "6lig87aj0ugjglr9n6wjkkbr3l4w5twg",
+            "ticket": "ST-gz7oRVaYE0EpsieuUDuqjAOegdPQdKPCqm0TfaDFL2LTrVHlvpfqADXKISO5t"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 1,
+        "fields": {
+            "trigram": "MAT",
+            "name": "Mathématiques"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 2,
+        "fields": {
+            "trigram": "HSS",
+            "name": "Humanités et Siences Sociales"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 3,
+        "fields": {
+            "trigram": "MAP",
+            "name": "Mathématiques appliquées"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 4,
+        "fields": {
+            "trigram": "PHY",
+            "name": "Physique"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 5,
+        "fields": {
+            "trigram": "CHI",
+            "name": "Chimie"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 6,
+        "fields": {
+            "trigram": "ECO",
+            "name": "Économie"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 7,
+        "fields": {
+            "trigram": "BIO",
+            "name": "Biologie"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 8,
+        "fields": {
+            "trigram": "INF",
+            "name": "Informatique"
+        }
+    },
+    {
+        "model": "rate.department",
+        "pk": 9,
+        "fields": {
+            "trigram": "MIE",
+            "name": "Management de l'Innovation et de l'Entrepreneuriat"
+        }
+    },
+    {
+        "model": "rate.year",
+        "pk": 1,
+        "fields": {
+            "name": "1A"
+        }
+    },
+    {
+        "model": "rate.year",
+        "pk": 2,
+        "fields": {
+            "name": "2A"
+        }
+    },
+    {
+        "model": "rate.year",
+        "pk": 3,
+        "fields": {
+            "name": "3A"
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 1,
+        "fields": {
+            "name": "TC",
+            "year": 1
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 2,
+        "fields": {
+            "name": "P1",
+            "year": 2
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 3,
+        "fields": {
+            "name": "P2",
+            "year": 2
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 4,
+        "fields": {
+            "name": "P3",
+            "year": 3
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 5,
+        "fields": {
+            "name": "P4",
+            "year": 2
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 6,
+        "fields": {
+            "name": "P1",
+            "year": 3
+        }
+    },
+    {
+        "model": "rate.period",
+        "pk": 7,
+        "fields": {
+            "name": "P2",
+            "year": 3
+        }
+    },
+    {
+        "model": "rate.type",
+        "pk": 1,
+        "fields": {
+            "name": "Cours"
+        }
+    },
+    {
+        "model": "rate.type",
+        "pk": 2,
+        "fields": {
+            "name": "Modal"
+        }
+    },
+    {
+        "model": "rate.type",
+        "pk": 3,
+        "fields": {
+            "name": "EA"
+        }
+    },
+    {
+        "model": "rate.course",
+        "pk": 1,
+        "fields": {
+            "code": "MAT311",
+            "title": "Analyse réelle",
+            "professor": "Frank Pacard",
+            "description": "Oh ouiii !!!!",
+            "department": 1,
+            "period": 1,
+            "type": 1,
+            "has_pale": true,
+            "has_project": false,
+            "has_presentation": false,
+            "has_oral": false
+        }
+    },
+    {
+        "model": "rate.course",
+        "pk": 2,
+        "fields": {
+            "code": "INF557",
+            "title": "Introduction to Computer Networks",
+            "professor": "Thomas Clausen",
+            "description": "Cours introductif au réseaux informatiques.",
+            "department": 8,
+            "period": 6,
+            "type": 1,
+            "has_pale": true,
+            "has_project": false,
+            "has_presentation": false,
+            "has_oral": true
+        }
+    },
+    {
+        "model": "rate.course",
+        "pk": 3,
+        "fields": {
+            "code": "INF559",
+            "title": "Introduction to Computer Systems",
+            "professor": "Francesco Zappa Nardelli",
+            "description": "Meilleur cours du monde <3",
+            "department": 8,
+            "period": 6,
+            "type": 1,
+            "has_pale": true,
+            "has_project": false,
+            "has_presentation": false,
+            "has_oral": false
+        }
+    },
+    {
+        "model": "rate.course",
+        "pk": 4,
+        "fields": {
+            "code": "MIE431",
+            "title": "Disruptivité et principe de la limonade",
+            "professor": "Florence Charrue-Duboc",
+            "description": "Il faut repenser les organisations à l'aide de la théorie C-K.",
+            "department": 9,
+            "period": 3,
+            "type": 2,
+            "has_pale": true,
+            "has_project": true,
+            "has_presentation": true,
+            "has_oral": true
+        }
+    },
+    {
+        "model": "rate.student",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "name": "Pierre NICOLAS",
+            "first_name": "Pierre",
+            "last_name": "Nicolas",
+            "promotion": "2013"
+        }
+    },
+    {
+        "model": "rate.student",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "name": "Marie SYLVIE",
+            "first_name": "Marie",
+            "last_name": "Sylvie",
+            "promotion": "2014"
+        }
+    },
+    {
+        "model": "rate.student",
+        "pk": 3,
+        "fields": {
+            "user": 4,
+            "name": "Kévin GARANGER",
+            "first_name": "Kévin",
+            "last_name": "Garanger",
+            "promotion": "2013"
+        }
+    },
+    {
+        "model": "rate.assessment",
+        "pk": 1,
+        "fields": {
+            "course": 1,
+            "student": 1,
+            "amphi_grade": 18,
+            "pc_grade": 14,
+            "interest_grade": 15,
+            "difficulty_grade": 20,
+            "comment": "bien !"
+        }
+    },
+    {
+        "model": "rate.assessment",
+        "pk": 2,
+        "fields": {
+            "course": 2,
+            "student": 3,
+            "amphi_grade": 0,
+            "pc_grade": 0,
+            "interest_grade": 2,
+            "difficulty_grade": 0,
+            "comment": "Si vous vous destinez à une brillante carrière d'ingénieur réseaux, ce cours est fait pour vous.\r\nDans 100% des autres cas, je ne peux que vous suggérer de renoncer à l'idée de prendre ce cours immédiatement.\r\n\r\nLa plupart des avis précédents devraient être largement suffisants pour vous faire une idée, mais si vous n'êtes toujours pas convaincus, voici quelques raisons qui finiront par vous ramener à la raison :\r\n- Les amphis sont un véritable calvaire à endurer. Thomas Clausen, certes passionné par son sujet, prend beaucoup plus de temps que nécessaire pour enseigner des principes en réalité assez simples, utilisant des métaphores toujours plus absconses au fur et à mesure qu'il avance dans le cours avec quelques élèves, laissant les autres livrés à eux-mêmes. Il a le don de rendre particulièrement compliqué ce qui ne l'est pas. Sa façon d'enseigner donne l'impression qu'il se prend pour un prophète venu transmettre sa connaissance de la science des réseaux, une discipline inventée par des êtres bien supérieurs à nous, à l'origine de concepts divins dont nous mortels parvenons à peine à saisir l'essence.\r\nJe ne peux nier les qualités d'orateur de Thomas Clausen, qui parvient à capter l'attention d'une bonne partie de la classe, malheureusement plus par la peur que par la sympathie qu'il inspire. S'en déduit une ambiance lugubre et pesante en amphis, où quelques personnes (moins de 4) suivent rigoureusement le cours et participent, tandis que les autres (ceux qui n'ont pas abandonné) n'ont qu'à attendre la fin du cours en silence en espérant ne pas se faire interroger d'ici là. Car si Thomas Clausen décide de vous poser une question en cours, priez pour avoir la bonne réponse. Si tel est le cas il vous gratifiera probablement d'un &quot;kudos&quot; et d'une blague 42, mais dans le cas contraire il n'hésitera pas à vous humilier. M. Clausen aime les élèves aussi passionnés que lui (et tant mieux pour eux), mais pour les autres, ils n'hésitera pas à vous rappeler les multiples manières d'obtenir F à ce cours (par exemple en prononçant le mot &quot;bandwidth&quot; à l'examen oral).\r\n- Pour ce qui est des PC, elles consistent principalement à bloquer 1h30 devant du code après avoir obtenu une note négative à un QCM aux questions tordues. J'ai tenté une fois de poser une question à Jiazi (un des profs de TD), s'en est suivi alors un moment très gênant où je fus incapable de comprendre ses suggestions dans un anglais plus qu'approximatif. Je n'ai évidemment jamais réitéré l'expérience. Par ailleurs je n'ai jamais entendu M. Chassignet (l'autre prof de TD) prononcer une phrase de plus de deux mots.\r\n- L'évaluation orale se divise en trois parties de 10 minutes chacune. Durant la première partie vous devez présenter une publication sur un protocole que vous avez préparée à l'avance. Durant les 10 minutes suivantes vous devez répondre à une question tirée au hasard parmi 17 que vous êtes censé avoir toutes préparées (le nombre de questions augmente chaque année). Inutile de dire que cet exercice demande énormément de préparation et que les questions peuvent être parfois assez difficiles.\r\n- Je mets tout de même une note de 2 en intérêt, car durant les deux jours précédents la pale orale, j'ai découvert tout un tas de choses intéressantes sur les réseaux en faisant mes recherches par moi-même (je précise bien que ce n'était pas grâce à son cours, au cas où)."
+        }
+    },
+    {
+        "model": "rate.assessment",
+        "pk": 3,
+        "fields": {
+            "course": 3,
+            "student": 1,
+            "amphi_grade": 20,
+            "pc_grade": 20,
+            "interest_grade": 20,
+            "difficulty_grade": 10,
+            "comment": "Un de mes meilleurs cours de l'X et très certainement le meilleur prof. Francesco Zappa Nardelli se plie en quatre pour faire des amphis captivants et dynamiques, des TD intéressants et ludiques avec une part de jeu (« Beat the prof contest ! »).\r\n\r\nLe contenu du cours est assez vertigineux, on part de la logique combinatoire pour finir à l'écriture d'un OS qui boote en passant par la gestion de la mémoire, le design d'un processeur, les attaques par buffer overflow... J'ai vraiment eu l'impression de comprendre de manière claire tout ce que les autres cours d'info avaient sous-entendu concernant le pourquoi des bugs, des stack overflow, la différence entre la pile et le tas, etc.\r\n\r\nBref un cours que je recommande à tous ceux qui veulent faire de l'info, avoir compris une fois dans sa vie ce qui se cache derrière l'abstraction des langages de programmation est assez salutaire.\r\n\r\nPour faire le grand chelem et comprendre dans tous les détails tout ce qui se passe (jusqu'au courant dans le transistor) au moment où tu appuies sur le bouton « compiler et exécuter » de ton IDE, à prendre avec PHY559 (circuits numériques et analogiques) et INF564 (compilation).\r\n\r\nAnecdote : ce cours est très largement inspiré du cours 15-213/15-513 de Carnegie Mellon University ; notamment les TD presque les mêmes."
+        }
+    },
+    {
+        "model": "rate.assessment",
+        "pk": 4,
+        "fields": {
+            "course": 4,
+            "student": 2,
+            "amphi_grade": 8,
+            "pc_grade": 6,
+            "interest_grade": 4,
+            "difficulty_grade": 15,
+            "comment": "Ça disrupte à foiz'"
+        }
+    },
+    {
+        "model": "rate.assessment",
+        "pk": 5,
+        "fields": {
+            "course": 1,
+            "student": 2,
+            "amphi_grade": 15,
+            "pc_grade": 12,
+            "interest_grade": 16,
+            "difficulty_grade": 14,
+            "comment": "Oh ouiiiiiiii !"
+        }
+    }
+]

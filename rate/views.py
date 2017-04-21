@@ -6,18 +6,7 @@ import json
 
 
 def home(request):
-    attributes = request.session['attributes']
-    try:
-        student = Student.objects.get(user__username=request.user.username)
-    except Student.DoesNotExist:
-        # For the first connection, we create a student
-        user = User.objects.get(username=request.user.username)
-        student = Student.objects.create(user=user,
-            first_name=attributes['first_name'],
-            last_name=attributes['last_name'],
-            name=attributes['name'],
-            promotion=attributes['promo'])
-
+    student = Student.objects.get(user = request.user)
     return render(request, 'rate/home.html', {'student': student})
 
 
