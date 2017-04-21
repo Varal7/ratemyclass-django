@@ -1,1 +1,9 @@
 Ceci est le cours {{ course.code }}
+
+Liste des assesments :
+
+{% for assessment in assessments %}
+
+{{ assessment.student.name }} : {{ assessment.comment }}
+
+{% endfor %}
