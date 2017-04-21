@@ -14,8 +14,8 @@ def home(request):
         # For the first connection, we create a student
         user = User.objects.get(username=request.user.username)
         student = Student.objects.create(user=user,
-            first_name=attributes['givenName'],
-            last_name=attributes['sn'],
+            first_name=attributes['first_name'],
+            last_name=attributes['last_name'],
             name=attributes['name'],
             promotion=attributes['promo'])
 
