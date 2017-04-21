@@ -26,3 +26,9 @@ def home(request):
 def course(request, code):
     course = get_object_or_404(Course, code=code)
     return render(request, 'rate/course.html', {'course': course})
+
+
+@login_required
+def all_courses(request):
+    courses = Course.objects.all()
+    return render(request, 'rate/all_courses.html', {'courses': courses})
