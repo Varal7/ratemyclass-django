@@ -48,8 +48,10 @@ class Type(models.Model):
 
 
 class Course(models.Model):
-    code = models.CharField('code', max_length=32)
-    title = models.CharField('titre', max_length=254)
+    code = models.CharField('code', max_length=32, unique=True, \
+            help_text="Identifiant du cours (ex: HSS311)")
+    title = models.CharField('titre', max_length=254, \
+            help_text="Nom du cours")
     professor = models.CharField('professeur', max_length=254)
     description = models.TextField('description')
     department = models.ForeignKey('Department', on_delete=models.CASCADE)
@@ -61,7 +63,7 @@ class Course(models.Model):
     has_oral = models.NullBooleanField('oral')
 
     def __str__(self):
-        return '%s (%s%s)' % (self.title, self.department.trigram, self.code)
+        return '%s (%s)' % (self.title, self.code)
 
     class Meta:
         verbose_name = 'cours'
@@ -93,7 +95,7 @@ class Assessment(models.Model):
 
     def __str__(self):
         total_grade = float(self.amphi_grade + self.pc_grade + self.interest_grade) / 3
-        return '%s%s noté par %s (%.1f)' % (self.course.department.trigram, self.course.code, self.student.name, total_grade)
+        return '%s noté par %s (%.1f)' % (self.course.code, self.student.name, total_grade)
 
     class Meta:
         verbose_name = 'évalutation'

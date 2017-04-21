@@ -16,11 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django_cas_ng.views import login, logout
-from rate.views import home
+from rate.views import home, course
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login$', login, name='login'),
     url(r'^logout$', logout, name='logout'),
-    url(r'^$', home, name='home')
+    url(r'^$', home, name='home'),
+    url(r'^course/(?P<code>.+)/$', course, name='course'),
 ]

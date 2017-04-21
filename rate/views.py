@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from rate.models import Student
+from rate.models import Student, Course
 import json
 
 
@@ -19,4 +19,10 @@ def home(request):
             name=attributes['name'],
             promotion=attributes['promo'])
 
-    return render(request, 'home.html', {'student': student})
+    return render(request, 'rate/home.html', {'student': student})
+
+
+@login_required
+def course(request, code):
+    course = get_object_or_404(Course, code=code)
+    return render(request, 'rate/course.html', {'course': course})

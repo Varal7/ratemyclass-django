@@ -277,7 +277,7 @@
         "model": "rate.course",
         "pk": 1,
         "fields": {
-            "code": "311",
+            "code": "MAT311",
             "title": "Analyse réelle",
             "professor": "Frank Pacard",
             "description": "Oh ouiii !!!!",
@@ -294,7 +294,7 @@
         "model": "rate.course",
         "pk": 2,
         "fields": {
-            "code": "557",
+            "code": "INF557",
             "title": "Introduction to Computer Networks",
             "professor": "Thomas Clausen",
             "description": "Cours introductif au réseaux informatiques.",
@@ -311,7 +311,7 @@
         "model": "rate.course",
         "pk": 3,
         "fields": {
-            "code": "559",
+            "code": "INF559",
             "title": "Introduction to Computer Systems",
             "professor": "Francesco Zappa Nardelli",
             "description": "Meilleur cours du monde <3",
@@ -328,7 +328,7 @@
         "model": "rate.course",
         "pk": 4,
         "fields": {
-            "code": "431",
+            "code": "MIE431",
             "title": "Disruptivité et principe de la limonade",
             "professor": "Florence Charrue-Duboc",
             "description": "Il faut repenser les organisations à l'aide de la théorie C-K.",
