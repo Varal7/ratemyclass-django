@@ -23,6 +23,6 @@ urlpatterns = [
     url(r'^login$', login, name='login'),
     url(r'^logout$', logout, name='logout'),
     url(r'^$', home, name='home'),
-    url(r'^course/$', all_courses, name='all_courses'),
-    url(r'^course/(?P<code>.+)/$', course, name='course'),
+    url(r'^courses/$', all_courses, name='all_courses'),
+    url(r'^courses/(?P<code>.+)/$', course, name='course'),
 ]
